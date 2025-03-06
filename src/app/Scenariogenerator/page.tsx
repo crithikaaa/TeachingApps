@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { saveScenario } from "@/app/Scenariogenerator/utils/localStorage";
-import { supabase } from "@/lib/supabase";  // Updated import path
+import { supabase } from "@/app/Scenariogenerator/lib/supabase";  // Updated import path
 
 interface Scenario {
   id?: string;  // Add id for Supabase records
